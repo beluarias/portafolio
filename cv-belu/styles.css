@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(4, 38, 41);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:not(:visited){
+    color: #2baaf3;
+}
+
+a:visited{
+    color: rgb(152, 129, 252);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: #87a3f1;
+}
+
+h1 {
+    font-size: 4em;
+    float: left;
+}
+
+h1+ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+h1+ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
